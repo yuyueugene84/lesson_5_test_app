@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
+  # 新增一個頁面，連結是 users/hallo, 會執行 users contrller 裡的 hallo action
+  get 'users/hallo' => 'users#hallo'
+
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
