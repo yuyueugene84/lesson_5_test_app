@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+  # 把 users index page 設定成這個網站的首頁
+  root 'users#index'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
