@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
+  # 增加一個叫 users 的 resource
+  resources :users
+  
   # Example resource route with options:
   #   resources :products do
   #     member do
