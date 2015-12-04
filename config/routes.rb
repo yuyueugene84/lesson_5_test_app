@@ -22,6 +22,7 @@ Rails.application.routes.draw do
 
   # 增加一個叫 users 的 resource
   resources :users
+  resources :orders
   
   # Example resource route with options:
   #   resources :products do
